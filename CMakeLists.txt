@@ -43,6 +43,18 @@ add_executable(tema_3
         src/algorithms/binary_search.h
         src/algorithms/dijkstra.cpp
         src/algorithms/dijkstra.h
+        src/gui/shawindow.cpp
+        src/gui/shawindow.h
+        src/gui/shawindow.ui
+        src/gui/binarysearchwindow.cpp
+        src/gui/binarysearchwindow.h
+        src/gui/binarysearchwindow.ui
+        src/gui/dijkstrawindow.cpp
+        src/gui/dijkstrawindow.h
+        src/gui/dijkstrawindow.ui
+        src/gui/vigenerewindow.cpp
+        src/gui/vigenerewindow.h
+        src/gui/vigenerewindow.ui
 )
 
 # Линкуем библиотеки Qt к нашему проекту
