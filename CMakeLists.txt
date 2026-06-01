@@ -55,7 +55,31 @@ add_executable(tema_3
         src/gui/vigenerewindow.cpp
         src/gui/vigenerewindow.h
         src/gui/vigenerewindow.ui
+        src/tests/tst_crypto_test.cpp
+)
+# --- БЛОК ЮНИТ-ТЕСТОВ ---
+
+# Ищем модуль Test в Qt
+find_package(Qt6 REQUIRED COMPONENTS Test)
+
+# Создаем отдельный исполняемый файл для тестов
+add_executable(qt_unit_tests
+        src/tests/tst_crypto_test.cpp
+        src/crypto/sha512.cpp
+        src/crypto/vigenere_cipher.cpp
+        src/algorithms/binary_search.cpp
+        src/algorithms/dijkstra.cpp
 )
 
+# Включаем автоматическую генерацию мета-кода Qt (MOC) для тестов
+set_target_properties(qt_unit_tests PROPERTIES
+        AUTOMOC ON
+)
+
+# Линкуем библиотеки Qt (нам нужен только Core и Test, так как GUI тут нет)
+target_link_libraries(qt_unit_tests PRIVATE
+        Qt6::Core
+        Qt6::Test
+)
 # Линкуем библиотеки Qt к нашему проекту
 target_link_libraries(tema_3 PRIVATE Qt6::Widgets)
