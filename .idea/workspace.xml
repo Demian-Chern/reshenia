@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0b37ad2-67e8-4652-97fd-62c861229bfd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/algorithms/Dijkstra.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/algorithms/Dijkstra.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/crypto/sha512.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/crypto/sha512.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/crypto/vigenere_cipher.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tests/test_all.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ip9PJwEP" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000084338444493" />
+      <entry key="S5" value="1.0355370738972218" />
+      <entry key="S10" value="1.2665618460179484" />
+      <entry key="S30" value="2.0215817747987006" />
+      <entry key="S60" value="2.429429391637764" />
+      <entry key="M2" value="2.697267452887579" />
+      <entry key="M5" value="3.0032728909576836" />
+      <entry key="M10" value="3.2989289720637034" />
+      <entry key="M15" value="3.4664395064676907" />
+      <entry key="M30" value="3.692384341700678" />
+      <entry key="H1" value="3.834206025773143" />
+      <entry key="H2" value="3.913850314471947" />
+      <entry key="H4" value="3.9560775603187053" />
+      <entry key="D1" value="3.9925588308071926" />
+      <entry key="W1" value="3.9989339778988584" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.8645372313078652" />
+      <entry key="MS500" value="0.9713074955416333" />
+      <entry key="S2" value="0.992748375440308" />
+      <entry key="S5" value="0.9970930153280375" />
+      <entry key="S10" value="0.9985455114736301" />
+      <entry key="S30" value="1.0040735186376946" />
+      <entry key="S60" value="1.0873268001754617" />
+      <entry key="M2" value="1.407841570875286" />
+      <entry key="M5" value="2.0521086652637366" />
+      <entry key="M10" value="2.4490334837024887" />
+      <entry key="M15" value="2.612964818275131" />
+      <entry key="M30" value="2.7958719609778253" />
+      <entry key="H1" value="2.8951328379971777" />
+      <entry key="H2" value="2.9468458654724503" />
+      <entry key="H4" value="2.97324026127885" />
+      <entry key="D1" value="2.9955144545602503" />
+      <entry key="W1" value="2.999358578263119" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8645372321768198" />
+      <entry key="MS500" value="0.9867173815493421" />
+      <entry key="S2" value="1.3451319903566665" />
+      <entry key="S5" value="1.6836960318192473" />
+      <entry key="S10" value="2.043008601969135" />
+      <entry key="S30" value="2.910359969239515" />
+      <entry key="S60" value="3.4450779303887065" />
+      <entry key="M2" value="4.059446334044463" />
+      <entry key="M5" value="5.030801511070809" />
+      <entry key="M10" value="5.733779102268143" />
+      <entry key="M15" value="6.06942401796365" />
+      <entry key="M30" value="6.482971060062119" />
+      <entry key="H1" value="6.72661552955317" />
+      <entry key="H2" value="6.859313386506824" />
+      <entry key="H4" value="6.9286210192568225" />
+      <entry key="D1" value="6.987956390064936" />
+      <entry key="W1" value="6.9982758380394605" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EUxabfuM2w5tNC97BDflz2LKiC" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main_console.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.tema_3.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.tema_3.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/учеба/tema 3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\учеба\tema 3\src" />
+      <recent name="C:\Users\Admin\Downloads\учеба\tema 3\src\crypto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.main.cpp">
+    <configuration name="tema_3" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main_console.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tema_3" TARGET_NAME="main_console.cpp" CONFIG_NAME="main_console.cpp">
+      <option name="sourceFile" value="shared\main_console.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tema_3" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="src\main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Debug.tema_3" />
+      <item itemvalue="C/C++ File.main_console.cpp" />
+      <item itemvalue="C/C++ File.main.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+        <item itemvalue="CMake Debug.tema_3" />
+        <item itemvalue="C/C++ File.main_console.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0b37ad2-67e8-4652-97fd-62c861229bfd" name="Changes" comment="" />
+      <created>1780247015874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780247015874</updated>
+      <workItem from="1780247017269" duration="4107000" />
+      <workItem from="1780251817095" duration="1161000" />
+      <workItem from="1780253539628" duration="404000" />
+      <workItem from="1780254253013" duration="1671000" />
+      <workItem from="1780256038256" duration="887000" />
+      <workItem from="1780257028700" duration="206000" />
+      <workItem from="1780257301852" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
