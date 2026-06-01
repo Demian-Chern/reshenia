@@ -2,7 +2,8 @@
 #define VIGENEREWINDOW_H
 
 #include <QWidget>
-#include "crypto/vigenere_cipher.h" // Путь к твоему классу шифрования
+#include <QCloseEvent>
+#include "crypto/vigenere_cipher.h" // Подключаем твой класс шифрования
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class VigenereWindow; }
@@ -13,8 +14,13 @@ class VigenereWindow : public QWidget
     Q_OBJECT
 
 public:
-    explicit VigenereWindow(QWidget *parent = nullptr);
+    // Конструктор принимает указатель на главное меню
+    explicit VigenereWindow(QWidget *parent = nullptr, QWidget *menu = nullptr);
     ~VigenereWindow();
+
+protected:
+    // Перехватываем закрытие окна
+    void closeEvent(QCloseEvent *event) override;
 
 private slots:
     void on_encryptButton_clicked();
@@ -22,6 +28,7 @@ private slots:
 
 private:
     Ui::VigenereWindow *ui;
+    QWidget *mainMenu; // Указатель для возврата в меню
 };
 
 #endif // VIGENEREWINDOW_H

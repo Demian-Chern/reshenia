@@ -11,42 +11,50 @@
             </rect>
         </property>
         <property name="windowTitle">
-            <string>Шифр Виженера</string>
+            <string>Шифр Виженера (Криптомодуль)</string>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout">
             <item>
                 <widget class="QLabel" name="label_text">
                     <property name="text">
-                        <string>Введите текст (латиница):</string>
+                        <string>Введите текст (только английские буквы):</string>
                     </property>
                 </widget>
             </item>
             <item>
-                <widget class="QLineEdit" name="textEdit"/>
+                <widget class="QLineEdit" name="textEdit">
+                    <property name="placeholderText">
+                        <string>Например: Attack at dawn</string>
+                    </property>
+                </widget>
             </item>
             <item>
                 <widget class="QLabel" name="label_key">
                     <property name="text">
-                        <string>Ключевое слово (буквы):</string>
+                        <string>Ключевое слово (только английские буквы):</string>
                     </property>
                 </widget>
             </item>
             <item>
-                <widget class="QLineEdit" name="keyEdit"/>
+                <widget class="QLineEdit" name="keyEdit">
+                    <property name="placeholderText">
+                        <string>Например: LEMON</string>
+                    </property>
+                </widget>
             </item>
             <item>
                 <layout class="QHBoxLayout" name="horizontalLayout">
                     <item>
                         <widget class="QPushButton" name="encryptButton">
                             <property name="text">
-                                <string>Зашифровать</string>
+                                <string>🔒 Зашифровать</string>
                             </property>
                         </widget>
                     </item>
                     <item>
                         <widget class="QPushButton" name="decryptButton">
                             <property name="text">
-                                <string>Расшифровать</string>
+                                <string>🔓 Расшифровать</string>
                             </property>
                         </widget>
                     </item>
@@ -55,7 +63,7 @@
             <item>
                 <widget class="QLabel" name="label_result">
                     <property name="text">
-                        <string>Результат:</string>
+                        <string>Результат работы:</string>
                     </property>
                 </widget>
             </item>
